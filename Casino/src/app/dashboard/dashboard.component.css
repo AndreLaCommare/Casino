@@ -1,0 +1,67 @@
+/* CSS styles for the casino home menu */
+body {
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+.banner {
+    background-color: #222;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.username {
+    font-size: 18px;
+}
+
+.cash {
+    font-size: 16px;
+}
+
+.profile-button,
+.settings-button {
+    background-color: #ffcd00;
+    border: none;
+    color: #000;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.game {
+    background-color: #222;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.game-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.game-description {
+    font-size: 14px;
+}

@@ -89,7 +89,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/login.js",
+              "src/assets/dashboard.js"
+            ]
           }
         }
       }
