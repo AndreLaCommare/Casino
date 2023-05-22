@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Casino Login</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to the Casino!</h1>
+            <div id="loginForm">
+                <form id="login">
+                    <input type="text" id="username" placeholder="Username" required>
+                    <br>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <br>
+                    <input type="submit" value="Login">
+                </form>
+                <p class="error" id="errorText"></p>
+                <p class="toggle-form" id="toggleForm">Create an account</p>
+            </div>
+            <div id="createAccountForm" class="create-account">
+                <form id="createAccount">
+                    <input type="text" id="newUsername" placeholder="New Username" required>
+                    <br>
+                    <input type="password" id="newPassword" placeholder="New Password" required>
+                    <br>
+                    <input type="submit" value="Create Account">
+                </form>
+                <p class="error" id="createErrorText"></p>
+                <p class="toggle-form" id="toggleForm">Back to Login</p>
+            </div>
+        </div>
+    </body>
+</html>
